@@ -6,6 +6,30 @@ Bugs fixed:
 Improvements:
 * [iOS] Excluded the `arm64` architecture for Simulators, which is unsupported by MLKit 7.0.0.
 
+## 1.0.0 (2024-10-30)
+
+
+### Features
+
+* add available camera information in startcallback on android ([133f5c2](https://github.com/gj-loitp/5_mobile_scanner/commit/133f5c23d95ca5b3759f59a5e0eaf50ac61a7395))
+* add new resolution selector with parameter for android ([240a374](https://github.com/gj-loitp/5_mobile_scanner/commit/240a374851034ff00e4702a1795ce48dc20efd20))
+* change platform os detect pattern in barcode_scanner_window.dart ([bf495be](https://github.com/gj-loitp/5_mobile_scanner/commit/bf495be9510eb60076734a618b92d1e7dab81d4e))
+* Update CHANGELOG.md for version 5.0.1 ([2899853](https://github.com/gj-loitp/5_mobile_scanner/commit/289985393d1b58d42f8fadb61b1a8cd1937253e1))
+* Update extension type ([f31b03d](https://github.com/gj-loitp/5_mobile_scanner/commit/f31b03dcfb46ff4610f9c4941fe1d266a44cf200))
+* Update pubspec.yaml for version 5.0.1 ([2a6c7d5](https://github.com/gj-loitp/5_mobile_scanner/commit/2a6c7d569c3ff17d37e95679553605fabe77464d))
+
+
+### Bug Fixes
+
+* remove duplicate library ([a59b2b6](https://github.com/gj-loitp/5_mobile_scanner/commit/a59b2b61b1a581a13f02bd185ac9b564439b73df))
+* return type 'int' doesn't allow null for zxingBarcodeFormat method ([528feb6](https://github.com/gj-loitp/5_mobile_scanner/commit/528feb659b4385bce2c7e5db9898e84ba7923240))
+* typo in zxing.dart ([17d3aed](https://github.com/gj-loitp/5_mobile_scanner/commit/17d3aed1b793d5628ffba9fd07337d6e2f25990b))
+
+
+### Performance Improvements
+
+* update gradle and java ([c59d915](https://github.com/gj-loitp/5_mobile_scanner/commit/c59d9151306c4554b621759c6c67fdb20a68d510))
+
 ## 6.0.1
 
 Bugs fixed:
